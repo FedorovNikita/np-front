@@ -55,9 +55,22 @@
 }
 
 @media (max-width: 700px) {
+    .photos-block {
+        height: 500px;
+        margin-top: 60px;
+    }
+    
     .inputfile + label {
         width: 550px;
         font-size: 16px;
         padding-bottom: 15px;
+    }
+
+    .bottom-block {
+        padding-top: 200px;
+    }
+
+    .dude {
+        top: 0;
     }
 }
